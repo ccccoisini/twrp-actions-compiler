@@ -37,7 +37,7 @@ env:
 jobs:
   build:
     # if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     
     steps:
     - name: Maximize build disk space
